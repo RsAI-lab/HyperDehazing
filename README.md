@@ -96,3 +96,15 @@ RSDformer: ([Code](https://github.com/MingTian99/RSDformer))
 ## Acknowledgement
 
 This project is based on FFANet ([code](https://github.com/zhilin007/FFA-Net)). Thanks for their wonderful works.
+
+## Citation
+If you find Vim is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+
+```bibtex
+ @article{HyperDehazing,
+  title={HyperDehazing: A hyperspectral image dehazing benchmark dataset and a deep learning model for haze removal},
+  author={Hang Fu, Ziyan Ling, Genyun Sun, Jinchang Ren, Aizhu Zhang, Li Zhang, Xiuping Jia},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  year={2024}
+}
+```
