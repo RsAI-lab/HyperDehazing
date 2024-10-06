@@ -42,13 +42,13 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 
 **Train:** 
 
-*Run [main.py], If you have more computing resources, expanding `bs`, `crop_size` will lead to better results*
+*Run [main.py](main.py), If you have more computing resources, expanding `bs`, `crop_size` will lead to better results*
 ```sh
 python main.py --net='HyperDehazeNet' --crop --crop_size=64 --bs=2 --lr=0.0001 --steps=10000 --eval_step=500
 ```
 **Test:** 
 
-*Run [test.py] to test the trained model:*
+*Run [test.py](test.py) to test the trained model:*
 ```sh
 python test.py --test_imgs='.\test_imgs'
 ```
