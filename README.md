@@ -38,6 +38,44 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 </div>
 <br>
 
+## Train and test
+
+**Train:** 
+
+*Run [main.py](net/main.py) , If you have more computing resources, expanding `bs`, `crop_size` will lead to better results*
+```sh
+python main.py --net='HyperDehazeNet' --crop --crop_size=64 --bs=2 --lr=0.0001 --trainset='train' --testset='test' --steps=10000 --eval_step=500
+```
+**Test:** 
+*Run [test.py](net/main.py) to test the trained model:*
+```sh
+python test.py --test_imgs='.\test_imgs'
+```
+
+**Data Setting**
+```
+┬─ data
+    ├─ GF5
+    │   ├─ train
+    │   │   ├─ clear
+    │   │   │   └─ 1.tif
+    │   │   │   └─ ... (image filename)
+    │   │   └─ hazy
+    │   │       └─ 1_1.tif
+    │   │       └─ 1_2.tif
+    │   │       └─ 1_3.tif 
+    │   │       └─ ... (corresponds to the former)
+    │   └─ test
+    │   │   ├─ clear
+    │   │   │   └─ 20.tif
+    │   │   │   └─ ... (image filename)
+    │   │   └─ hazy
+    │   │       └─ 20_1.tif
+    │   │       └─ 20_2.tif
+    │   │       └─ 20_3.tif 
+    │   │       └─ ... (corresponds to the former)
+```
+
 ## Other dehazing methods  
 
 **CNN-based HSI dehazing methods:** 
