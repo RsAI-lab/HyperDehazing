@@ -38,23 +38,8 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 </div>
 <br>
 
-## Train and test
+## Data Setting
 
-**Train:** 
-
-*Run [main.py](main.py) , if you have more computing resources, expanding `bs`, `crop_size`, `steps` will lead to better results*
-```sh
-python main.py --net='HyperDehazeNet' --crop --crop_size=64 --bs=2 --lr=0.0001 --steps=10000 --eval_step=500
-```
-**Test:** 
-
-*Run [test.py](test.py) to test the trained model:*
-```sh
-python test.py --test_imgs='.\test_imgs'
-```
-
-**Data Setting**
-```
 ┬─ data
     ├─ GF5
     │   ├─ train
