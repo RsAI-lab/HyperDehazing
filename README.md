@@ -84,7 +84,7 @@ RSDformer: ([Code](https://github.com/MingTian99/RSDformer))
 This project is based on FFANet ([code](https://github.com/zhilin007/FFA-Net)). Thanks for their wonderful works.
 
 ## Citation
-If you find data and code are useful, please consider giving us a star 🌟 and citing it.
+If you find data is useful, please consider giving us a star 🌟 and citing it.
 
 ```bibtex
  @article{HyperDehazing,
