@@ -40,6 +40,7 @@ The proposed HyperDehazeNet consists of two branches: the main branch (MB), an e
 
 ## Data Setting
 
+```
 ┬─ data
     ├─ GF5
     │   ├─ train
