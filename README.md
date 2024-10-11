@@ -79,10 +79,6 @@ AIDFormer: ([Code](https://github.com/AshutoshKulkarni4998/AIDTransformer))
 
 RSDformer: ([Code](https://github.com/MingTian99/RSDformer))
 
-## Acknowledgement
-
-This project is based on FFANet ([code](https://github.com/zhilin007/FFA-Net)). Thanks for their wonderful works.
-
 ## Citation
 If you find data is useful, please consider giving us a star 🌟 and citing it.
 
